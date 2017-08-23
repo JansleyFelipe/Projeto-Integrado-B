@@ -1,2 +1,2 @@
-# Projeto-Integrado-B
+# PI-B Equipe E
 Projeto do semestre
