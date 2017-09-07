@@ -16,3 +16,12 @@ C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Prope
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\17778531\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
