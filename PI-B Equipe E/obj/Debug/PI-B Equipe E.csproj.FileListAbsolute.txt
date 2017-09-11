@@ -16,3 +16,78 @@ C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Prope
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
 C:\Users\marco\Desktop\PI-B Equipe E\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI-B Equipe E - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI-B Equipe E - Copia - Copia\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Loged.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Subforms.Loged.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Logado.resources
+C:\Users\marco\Desktop\PI_B\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Escala_de_temperatura.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Escala_de_temperatura.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Logado.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
+C:\Users\Vinnys Lins\Desktop\PI-B v1.2.1\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Sobre.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe.config
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.exe
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\bin\Debug\PI-B Equipe E.pdb
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csprojResolveAssemblyReference.cache
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Form1.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Sobre.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Escala_de_temperatura.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Logado.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Properties.Resources.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
+C:\Users\Vinnys Lins\Documents\JansleyGit\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb
