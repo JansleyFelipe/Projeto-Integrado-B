@@ -49,7 +49,6 @@
             this.PIC_close = new System.Windows.Forms.PictureBox();
             this.PIC_toggleform = new System.Windows.Forms.PictureBox();
             this.PIC_home = new System.Windows.Forms.PictureBox();
-<<<<<<< HEAD
             this.TTP_info = new System.Windows.Forms.ToolTip(this.components);
             this.PNL_box.SuspendLayout();
             this.PNL_home.SuspendLayout();
@@ -60,24 +59,6 @@
             this.panel5.SuspendLayout();
             this.TLP_controlbox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PIC_minimize)).BeginInit();
-=======
-            this.PNL_box = new System.Windows.Forms.Panel();
-            this.PNL_body = new System.Windows.Forms.Panel();
-            this.PNL_header = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.CBOescalas = new System.Windows.Forms.ComboBox();
-            this.TXTvalescala = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.LBLresposta = new System.Windows.Forms.Label();
-            this.BTNcalculo = new System.Windows.Forms.Button();
-            this.TBC_main.SuspendLayout();
-            this.TBP_home.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.TBP_login.SuspendLayout();
-            this.TBP_scales.SuspendLayout();
->>>>>>> 590eb9829141e478904b001ee953cc8632e67659
             ((System.ComponentModel.ISupportInitialize)(this.PIC_close)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PIC_toggleform)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PIC_home)).BeginInit();
@@ -168,25 +149,7 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
             // 
-<<<<<<< HEAD
             // button1
-=======
-            // TBP_scales
-            // 
-            this.TBP_scales.BackColor = System.Drawing.Color.Gray;
-            this.TBP_scales.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.TBP_scales.Controls.Add(this.BTNcalculo);
-            this.TBP_scales.Controls.Add(this.LBLresposta);
-            this.TBP_scales.Controls.Add(this.label6);
-            this.TBP_scales.Controls.Add(this.label5);
-            this.TBP_scales.Controls.Add(this.TXTvalescala);
-            this.TBP_scales.Controls.Add(this.CBOescalas);
-            this.TBP_scales.Location = new System.Drawing.Point(154, 4);
-            this.TBP_scales.Name = "TBP_scales";
-            this.TBP_scales.Size = new System.Drawing.Size(1070, 451);
-            this.TBP_scales.TabIndex = 2;
-            this.TBP_scales.Text = "Escalas de temperatura";
->>>>>>> 590eb9829141e478904b001ee953cc8632e67659
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -389,62 +352,6 @@
             // 
             this.TTP_info.ShowAlways = true;
             // 
-            // CBOescalas
-            // 
-            this.CBOescalas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CBOescalas.FormattingEnabled = true;
-            this.CBOescalas.Items.AddRange(new object[] {
-            "Celsius",
-            "Kelvin",
-            "Fahrenheit"});
-            this.CBOescalas.Location = new System.Drawing.Point(61, 39);
-            this.CBOescalas.Name = "CBOescalas";
-            this.CBOescalas.Size = new System.Drawing.Size(230, 27);
-            this.CBOescalas.TabIndex = 0;
-            // 
-            // TXTvalescala
-            // 
-            this.TXTvalescala.Location = new System.Drawing.Point(61, 122);
-            this.TXTvalescala.Name = "TXTvalescala";
-            this.TXTvalescala.Size = new System.Drawing.Size(230, 27);
-            this.TXTvalescala.TabIndex = 1;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(57, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(234, 19);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "Escolha a escala de entrada:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(57, 88);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(169, 19);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Insira a temperatura:";
-            // 
-            // LBLresposta
-            // 
-            this.LBLresposta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.LBLresposta.Location = new System.Drawing.Point(402, 55);
-            this.LBLresposta.Name = "LBLresposta";
-            this.LBLresposta.Size = new System.Drawing.Size(230, 231);
-            this.LBLresposta.TabIndex = 4;
-            // 
-            // BTNcalculo
-            // 
-            this.BTNcalculo.Location = new System.Drawing.Point(95, 215);
-            this.BTNcalculo.Name = "BTNcalculo";
-            this.BTNcalculo.Size = new System.Drawing.Size(108, 42);
-            this.BTNcalculo.TabIndex = 5;
-            this.BTNcalculo.Text = "Converter";
-            this.BTNcalculo.UseVisualStyleBackColor = true;
-            this.BTNcalculo.Click += new System.EventHandler(this.BTNcalculo_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -459,7 +366,6 @@
             this.MinimumSize = new System.Drawing.Size(900, 570);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-<<<<<<< HEAD
             this.Text = "Allsys";
             this.PNL_box.ResumeLayout(false);
             this.PNL_home.ResumeLayout(false);
@@ -470,18 +376,6 @@
             this.panel5.ResumeLayout(false);
             this.TLP_controlbox.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PIC_minimize)).EndInit();
-=======
-            this.Text = "Form1";
-            this.TBC_main.ResumeLayout(false);
-            this.TBP_home.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.TBP_login.ResumeLayout(false);
-            this.TBP_login.PerformLayout();
-            this.TBP_scales.ResumeLayout(false);
-            this.TBP_scales.PerformLayout();
->>>>>>> 590eb9829141e478904b001ee953cc8632e67659
             ((System.ComponentModel.ISupportInitialize)(this.PIC_close)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PIC_toggleform)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PIC_home)).EndInit();
@@ -496,7 +390,6 @@
         private System.Windows.Forms.PictureBox PIC_home;
         private System.Windows.Forms.Panel PNL_box;
         private System.Windows.Forms.Panel PNL_header;
-<<<<<<< HEAD
         private System.Windows.Forms.TableLayoutPanel TLP_controlbox;
         private System.Windows.Forms.Panel PNL_home;
         private System.Windows.Forms.Panel panel1;
@@ -511,22 +404,6 @@
         private System.Windows.Forms.ToolTip TTP_info;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-=======
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.TabPage TBP_scales;
-        private System.Windows.Forms.TabPage TBP_about;
-        private System.Windows.Forms.TabPage TBP_exit;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox CBOescalas;
-        private System.Windows.Forms.Button BTNcalculo;
-        private System.Windows.Forms.Label LBLresposta;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox TXTvalescala;
->>>>>>> 590eb9829141e478904b001ee953cc8632e67659
     }
 }
 
