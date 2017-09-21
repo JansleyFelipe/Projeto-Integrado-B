@@ -19,7 +19,7 @@ namespace PI_B_Equipe_E.Properties {
     // através de uma ferramenta como ResGen ou Visual Studio.
     // Para adicionar ou remover um associado, edite o arquivo .ResX e execute ResGen novamente
     // com a opção /str, ou recrie o projeto do VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -97,6 +97,19 @@ namespace PI_B_Equipe_E.Properties {
             get {
                 object obj = ResourceManager.GetObject("closee", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a O objetivo do Allsys é atender a uma série de funcionalidades e disponibiliza-las aos usuários. Esse sistema foi desenvolvido com intuito de atender à prática da diciplina Projeto Integrado B.
+        ///Desenvolvedores:
+        ///Jansley Felipe M. Barbosa
+        ///Marcos V. O. Tomaz
+        ///Vinnys F. Lins.
+        /// </summary>
+        internal static string DescriçãoAllsys {
+            get {
+                return ResourceManager.GetString("DescriçãoAllsys", resourceCulture);
             }
         }
         

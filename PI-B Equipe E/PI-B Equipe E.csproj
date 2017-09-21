@@ -160,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Alssys2.ico" />
+    <None Include="Resources\DescriçãoAllsys.txt" />
     <None Include="Resources\Alssys11.png" />
   </ItemGroup>
   <ItemGroup>

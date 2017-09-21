@@ -1,0 +1,5 @@
+O objetivo do Allsys é atender a uma série de funcionalidades e disponibiliza-las aos usuários. Esse sistema foi desenvolvido com intuito de atender à prática da diciplina Projeto Integrado B.
+Desenvolvedores:
+Jansley Felipe M. Barbosa
+Marcos V. O. Tomaz
+Vinnys F. Lins
