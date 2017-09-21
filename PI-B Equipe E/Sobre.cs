@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace PI_B_Equipe_E
 {
@@ -19,7 +20,7 @@ namespace PI_B_Equipe_E
 
         private void Sobre_Load(object sender, EventArgs e)
         {
-            LBL_sobre.Text = "";
+            LBL_sobre.Text = PI_B_Equipe_E.Properties.Resources.DescriçãoAllsys;
         }
     }
 }

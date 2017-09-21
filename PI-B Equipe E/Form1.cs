@@ -18,6 +18,7 @@ namespace PI_B_Equipe_E
 
         Registro registro = new Registro();
         Escala_de_temperatura escala_de_temperatura = new Escala_de_temperatura();
+        Sobre sobre = new Sobre();
 
         public Form1()
         {
@@ -54,15 +55,20 @@ namespace PI_B_Equipe_E
                 active.Hide();
             }
 
-            if (BTN.Tag.ToString() == "Registro de novo usuário")
+            switch (BTN.Tag)
             {
-                registro.Parent = PNL_principal;
-                registro.Show();
-            }
-            else if (BTN.Tag.ToString() == "Escala de temperaturas")
-            {
-                escala_de_temperatura.Parent = PNL_principal;
-                escala_de_temperatura.Show();
+                case "Registro de novo usúario":
+                    registro.Parent = PNL_principal;
+                    registro.Show();
+                    break;
+                case "Escala de temperaturas":
+                    escala_de_temperatura.Parent = PNL_principal;
+                    escala_de_temperatura.Show();
+                    break;
+                case "Sobre":
+                    sobre.Parent = PNL_principal;
+                    sobre.Show();
+                    break;
             }
 
             BTN.BackColor = Color.DimGray;
