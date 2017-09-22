@@ -50,6 +50,7 @@
             this.TXB_senha.PasswordChar = '*';
             this.TXB_senha.Size = new System.Drawing.Size(227, 27);
             this.TXB_senha.TabIndex = 1;
+            this.TXB_senha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TXB_senha_KeyPress);
             // 
             // BTN_login
             // 
@@ -113,6 +114,7 @@
             this.MinimumSize = new System.Drawing.Size(297, 112);
             this.Name = "Login";
             this.Size = new System.Drawing.Size(297, 112);
+            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

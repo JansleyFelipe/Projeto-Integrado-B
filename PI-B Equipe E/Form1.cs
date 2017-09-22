@@ -19,16 +19,18 @@ namespace PI_B_Equipe_E
         Registro registro = new Registro();
         Escala_de_temperatura escala_de_temperatura = new Escala_de_temperatura();
         Sobre sobre = new Sobre();
+        CalculadoraDeDatas calculadoraDeDatas = new CalculadoraDeDatas();
 
         public Form1()
         {
             InitializeComponent();
             Login login = new Login() { Parent = PNL_statuslogin };
             login.Show();
+
             TTP_info.SetToolTip(BTN_option1, BTN_option1.Tag.ToString());
             TTP_info.SetToolTip(BTN_option2, BTN_option2.Tag.ToString());
+            TTP_info.SetToolTip(BTN_option0, BTN_option0.Tag.ToString());
             TTP_info.SetToolTip(BTN_option3, BTN_option3.Tag.ToString());
-            //TTP_info.SetToolTip(BTN_option4, BTN_option4.Tag.ToString());
         }
 
         private void BTN_optionX_Click(object sender, EventArgs e)
@@ -57,7 +59,7 @@ namespace PI_B_Equipe_E
 
             switch (BTN.Tag)
             {
-                case "Registro de novo usúario":
+                case "Registro de novo usuário":
                     registro.Parent = PNL_principal;
                     registro.Show();
                     break;
@@ -68,6 +70,10 @@ namespace PI_B_Equipe_E
                 case "Sobre":
                     sobre.Parent = PNL_principal;
                     sobre.Show();
+                    break;
+                case "Calculadora De Datas":
+                    calculadoraDeDatas.Parent = PNL_principal;
+                    calculadoraDeDatas.Show();
                     break;
             }
 
@@ -174,7 +180,23 @@ namespace PI_B_Equipe_E
 
         private void PIC_home_Click(object sender, EventArgs e)
         {
-            BTN_option3.PerformClick();
+            BTN_option0.PerformClick();
+        }
+
+        private void PNL_statuslogin_ControlAdded(object sender, ControlEventArgs e)
+        {
+            if (Usuário.Logado)
+            {
+                switch (Usuário.Permissao)
+                {
+                    case "administrador":
+                        BTN_option3.Enabled = true;
+                        BTN_option3.Visible = true;
+                        break;
+                    case "usuário":
+                        break;
+                }
+            }
         }
     }
 }

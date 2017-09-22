@@ -36,8 +36,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.TBL_tabitems = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.BTN_option3 = new System.Windows.Forms.Button();
+            this.BTN_option0 = new System.Windows.Forms.Button();
             this.BTN_option1 = new System.Windows.Forms.Button();
             this.BTN_option2 = new System.Windows.Forms.Button();
             this.PNL_header = new System.Windows.Forms.Panel();
@@ -111,8 +111,8 @@
             this.TBL_tabitems.ColumnCount = 1;
             this.TBL_tabitems.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TBL_tabitems.Controls.Add(this.button2, 0, 4);
-            this.TBL_tabitems.Controls.Add(this.button1, 0, 3);
-            this.TBL_tabitems.Controls.Add(this.BTN_option3, 0, 0);
+            this.TBL_tabitems.Controls.Add(this.BTN_option3, 0, 3);
+            this.TBL_tabitems.Controls.Add(this.BTN_option0, 0, 0);
             this.TBL_tabitems.Controls.Add(this.BTN_option1, 0, 1);
             this.TBL_tabitems.Controls.Add(this.BTN_option2, 0, 2);
             this.TBL_tabitems.Dock = System.Windows.Forms.DockStyle.Top;
@@ -149,43 +149,44 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
             // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button1.Enabled = false;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 165);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 55);
-            this.button1.TabIndex = 3;
-            this.button1.Tag = "Escala de temperaturas";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Visible = false;
-            // 
             // BTN_option3
             // 
-            this.BTN_option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(189)))), ((int)(((byte)(63)))));
-            this.BTN_option3.BackgroundImage = global::PI_B_Equipe_E.Properties.Resources.about;
+            this.BTN_option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.BTN_option3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BTN_option3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BTN_option3.Enabled = false;
             this.BTN_option3.FlatAppearance.BorderSize = 0;
             this.BTN_option3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_option3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_option3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTN_option3.Location = new System.Drawing.Point(0, 0);
+            this.BTN_option3.Location = new System.Drawing.Point(0, 165);
             this.BTN_option3.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_option3.Name = "BTN_option3";
             this.BTN_option3.Size = new System.Drawing.Size(105, 55);
-            this.BTN_option3.TabIndex = 2;
-            this.BTN_option3.Tag = "Sobre";
+            this.BTN_option3.TabIndex = 3;
+            this.BTN_option3.Tag = "Calculadora De Datas";
             this.BTN_option3.UseVisualStyleBackColor = false;
+            this.BTN_option3.Visible = false;
             this.BTN_option3.Click += new System.EventHandler(this.BTN_optionX_Click);
+            // 
+            // BTN_option0
+            // 
+            this.BTN_option0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(189)))), ((int)(((byte)(63)))));
+            this.BTN_option0.BackgroundImage = global::PI_B_Equipe_E.Properties.Resources.about;
+            this.BTN_option0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.BTN_option0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BTN_option0.FlatAppearance.BorderSize = 0;
+            this.BTN_option0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTN_option0.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTN_option0.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTN_option0.Location = new System.Drawing.Point(0, 0);
+            this.BTN_option0.Margin = new System.Windows.Forms.Padding(0);
+            this.BTN_option0.Name = "BTN_option0";
+            this.BTN_option0.Size = new System.Drawing.Size(105, 55);
+            this.BTN_option0.TabIndex = 2;
+            this.BTN_option0.Tag = "Sobre";
+            this.BTN_option0.UseVisualStyleBackColor = false;
+            this.BTN_option0.Click += new System.EventHandler(this.BTN_optionX_Click);
             // 
             // BTN_option1
             // 
@@ -260,6 +261,7 @@
             this.PNL_statuslogin.Name = "PNL_statuslogin";
             this.PNL_statuslogin.Size = new System.Drawing.Size(297, 112);
             this.PNL_statuslogin.TabIndex = 1;
+            this.PNL_statuslogin.ControlAdded += new System.Windows.Forms.ControlEventHandler(this.PNL_statuslogin_ControlAdded);
             // 
             // panel5
             // 
@@ -394,7 +396,7 @@
         private System.Windows.Forms.Panel PNL_home;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.TableLayoutPanel TBL_tabitems;
-        private System.Windows.Forms.Button BTN_option3;
+        private System.Windows.Forms.Button BTN_option0;
         private System.Windows.Forms.Button BTN_option2;
         private System.Windows.Forms.Button BTN_option1;
         private System.Windows.Forms.Panel PNL_principal;
@@ -402,8 +404,8 @@
         private System.Windows.Forms.Panel PNL_statuslogin;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.ToolTip TTP_info;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BTN_option3;
     }
 }
 

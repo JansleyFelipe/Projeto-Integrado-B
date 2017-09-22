@@ -8,9 +8,9 @@ namespace PI_B_Equipe_E
 {
     static class Usuário
     {
-        private static bool loged;
+        private static bool logado;
 
-        private static string permission_level;
+        private static string permissao;
                
         private static string email;
                
@@ -20,27 +20,27 @@ namespace PI_B_Equipe_E
 
         private static DateTime aniversario;
 
-        public static bool Loged
+        public static bool Logado
         {
             set
             {
-                loged = value;
+                logado = value;
             }
             get
             {
-                return loged;
+                return logado;
             }
         }
 
-        public static string PermissioLevel
+        public static string Permissao
         {
             set
             {
-                permission_level = value;
+                permissao = value;
             }
             get
             {
-                return permission_level;
+                return permissao;
             }
         }
 
@@ -94,8 +94,8 @@ namespace PI_B_Equipe_E
 
         public static void Logoff()
         {
-            Loged = false;
-            PermissioLevel = null;
+            Logado = false;
+            Permissao = null;
             Email = null;
             Nome = null;
             Login = null;

@@ -16,5 +16,10 @@ namespace PI_B_Equipe_E
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = DateTimeOffset.Now.Subtract(dateTimePicker1.Value).ToString();
+        }
     }
 }
