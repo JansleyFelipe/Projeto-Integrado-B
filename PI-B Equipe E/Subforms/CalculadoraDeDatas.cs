@@ -17,9 +17,11 @@ namespace PI_B_Equipe_E
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BTN_idade_Click(object sender, EventArgs e)
         {
-            label1.Text = DateTimeOffset.Now.Subtract(dateTimePicker1.Value).ToString();
+            LBL_idade.Text = DateTime.Now.Subtract(DTP_nascimento.Value).TotalDays.ToString();
+            LBL_idade.Text += "\n" + DateTime.Now.Subtract(DTP_nascimento.Value).TotalHours.ToString();
+            LBL_idade.Text = DateTime.Today.CompareTo(DTP_nascimento.Value).ToString();
         }
     }
 }

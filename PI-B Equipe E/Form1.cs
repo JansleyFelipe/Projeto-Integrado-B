@@ -197,6 +197,17 @@ namespace PI_B_Equipe_E
                         break;
                 }
             }
+            else
+            {
+                BTN_option3.Enabled = false;
+                BTN_option3.Visible = false;
+                BTN_option0.PerformClick();
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            BTN_option0.PerformClick();
         }
     }
 }
