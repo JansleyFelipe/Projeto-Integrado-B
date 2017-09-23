@@ -22,6 +22,12 @@ namespace PI_B_Equipe_E
         CalculadoraDeDatas calculadoraDeDatas = new CalculadoraDeDatas();
 
         List<Button> Botões = new List<Button>();
+        List<Type> Forms = new List<Type>
+        {
+            typeof(Sobre), typeof(Registro), typeof(Escala_de_temperatura), typeof(Escala_de_temperatura)
+        };
+
+        Dictionary<Button, Type> Botoes = new Dictionary<Button, Type>();
 
         public Form1()
         {
