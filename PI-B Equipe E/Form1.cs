@@ -21,35 +21,45 @@ namespace PI_B_Equipe_E
         Sobre sobre = new Sobre();
         CalculadoraDeDatas calculadoraDeDatas = new CalculadoraDeDatas();
 
+        List<Button> Botões = new List<Button>();
+
         public Form1()
         {
             InitializeComponent();
             Login login = new Login() { Parent = PNL_statuslogin };
             login.Show();
+        }
 
-            TTP_info.SetToolTip(BTN_option1, BTN_option1.Tag.ToString());
-            TTP_info.SetToolTip(BTN_option2, BTN_option2.Tag.ToString());
-            TTP_info.SetToolTip(BTN_option0, BTN_option0.Tag.ToString());
-            TTP_info.SetToolTip(BTN_option3, BTN_option3.Tag.ToString());
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            BTN_option0.PerformClick();
+
+            foreach (Control button in TBL_tabitems.Controls)
+            {
+                try
+                {
+                    Button BTN = button as Button;
+                    Botões.Add(BTN);
+                    TTP_info.SetToolTip(BTN, BTN.Tag.ToString());
+                }
+                catch
+                {
+
+                }
+            }
         }
 
         private void BTN_optionX_Click(object sender, EventArgs e)
         {
             Button BTN = sender as Button;
 
-            foreach (Control btn in TBL_tabitems.Controls)
+            foreach (Button button in Botões)
             {
-                try
+                if (BTN != button)
                 {
-                    Button button_opt = btn as Button;
-
-                    if (BTN != button_opt)
-                    {
-                        button_opt.BackColor = Color.FromArgb(250, 189, 63);
-                        button_opt.ForeColor = Color.Black;
-                    }
+                    button.BackColor = Color.FromArgb(250, 189, 63);
+                    button.ForeColor = Color.Black;
                 }
-                catch { }
             }
 
             foreach (Control active in PNL_principal.Controls)
@@ -81,34 +91,16 @@ namespace PI_B_Equipe_E
             BTN.ForeColor = Color.FromArgb(250, 189, 63);
         }
 
-        private void PIC_close_MouseEnter(object sender, EventArgs e)
+        private void PIC_MouseEnter(object sender, EventArgs e)
         {
-            PIC_close.BackColor = Color.FromArgb(50, 50, 50);
+            PictureBox controle = sender as PictureBox;
+            controle.BackColor = Color.FromArgb(50, 50, 50);
         }
 
-        private void PIC_close_MouseLeave(object sender, EventArgs e)
+        private void PIC_MouseLeave(object sender, EventArgs e)
         {
-            PIC_close.BackColor = Color.Transparent;
-        }
-
-        private void PIC_toggleform_MouseEnter(object sender, EventArgs e)
-        {
-            PIC_toggleform.BackColor = Color.FromArgb(50, 50, 50);
-        }
-
-        private void PIC_toggleform_MouseLeave(object sender, EventArgs e)
-        {
-            PIC_toggleform.BackColor = Color.Transparent;
-        }
-
-        private void PIC_minimize_MouseEnter(object sender, EventArgs e)
-        {
-            PIC_minimize.BackColor = Color.FromArgb(50, 50, 50);
-        }
-
-        private void PIC_minimize_MouseLeave(object sender, EventArgs e)
-        {
-            PIC_minimize.BackColor = Color.Transparent;
+            PictureBox controle = sender as PictureBox;
+            controle.BackColor = Color.Transparent;
         }
 
         private void PIC_toggleform_Click(object sender, EventArgs e)
@@ -134,7 +126,7 @@ namespace PI_B_Equipe_E
 
         private void PIC_close_Click(object sender, EventArgs e)
         {
-            if(MessageBox.Show("Deseja mesmo fechar o programa?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Deseja mesmo fechar o programa?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Close();
             }
@@ -205,9 +197,10 @@ namespace PI_B_Equipe_E
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void BTN_FocusEnter(object sender, EventArgs e)
         {
-            BTN_option0.PerformClick();
+            Button BTN = sender as Button;
+            BTN.PerformClick();
         }
     }
 }

@@ -105,6 +105,5 @@ C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equip
 C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Registro.resources
 C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI_B_Equipe_E.Login.resources
 C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.GenerateResource.Cache
-C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.csproj.CoreCompileInputs.cache
 C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.exe
 C:\Users\marco\Documents\GitHub\PI-B-Equipe-E\PI-B Equipe E\obj\Debug\PI-B Equipe E.pdb

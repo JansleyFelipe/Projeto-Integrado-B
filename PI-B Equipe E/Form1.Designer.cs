@@ -93,7 +93,7 @@
             this.PNL_principal.Location = new System.Drawing.Point(105, 0);
             this.PNL_principal.Name = "PNL_principal";
             this.PNL_principal.Size = new System.Drawing.Size(793, 419);
-            this.PNL_principal.TabIndex = 2;
+            this.PNL_principal.TabIndex = 0;
             // 
             // panel1
             // 
@@ -144,10 +144,11 @@
             this.button2.Margin = new System.Windows.Forms.Padding(0);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(105, 56);
-            this.button2.TabIndex = 4;
+            this.button2.TabIndex = 5;
             this.button2.Tag = "Escala de temperaturas";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
+            this.button2.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option3
             // 
@@ -163,11 +164,12 @@
             this.BTN_option3.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_option3.Name = "BTN_option3";
             this.BTN_option3.Size = new System.Drawing.Size(105, 55);
-            this.BTN_option3.TabIndex = 3;
+            this.BTN_option3.TabIndex = 4;
             this.BTN_option3.Tag = "Calculadora De Datas";
             this.BTN_option3.UseVisualStyleBackColor = false;
             this.BTN_option3.Visible = false;
             this.BTN_option3.Click += new System.EventHandler(this.BTN_optionX_Click);
+            this.BTN_option3.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option0
             // 
@@ -183,10 +185,11 @@
             this.BTN_option0.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_option0.Name = "BTN_option0";
             this.BTN_option0.Size = new System.Drawing.Size(105, 55);
-            this.BTN_option0.TabIndex = 2;
+            this.BTN_option0.TabIndex = 0;
             this.BTN_option0.Tag = "Sobre";
             this.BTN_option0.UseVisualStyleBackColor = false;
             this.BTN_option0.Click += new System.EventHandler(this.BTN_optionX_Click);
+            this.BTN_option0.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option1
             // 
@@ -194,7 +197,6 @@
             this.BTN_option1.BackgroundImage = global::PI_B_Equipe_E.Properties.Resources.newuser;
             this.BTN_option1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BTN_option1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BTN_option1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.BTN_option1.FlatAppearance.BorderSize = 0;
             this.BTN_option1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_option1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -205,10 +207,11 @@
             this.BTN_option1.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_option1.Name = "BTN_option1";
             this.BTN_option1.Size = new System.Drawing.Size(105, 55);
-            this.BTN_option1.TabIndex = 0;
+            this.BTN_option1.TabIndex = 1;
             this.BTN_option1.Tag = "Registro de novo usuário";
             this.BTN_option1.UseVisualStyleBackColor = false;
             this.BTN_option1.Click += new System.EventHandler(this.BTN_optionX_Click);
+            this.BTN_option1.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option2
             // 
@@ -224,10 +227,11 @@
             this.BTN_option2.Margin = new System.Windows.Forms.Padding(0);
             this.BTN_option2.Name = "BTN_option2";
             this.BTN_option2.Size = new System.Drawing.Size(105, 55);
-            this.BTN_option2.TabIndex = 1;
+            this.BTN_option2.TabIndex = 3;
             this.BTN_option2.Tag = "Escala de temperaturas";
             this.BTN_option2.UseVisualStyleBackColor = false;
             this.BTN_option2.Click += new System.EventHandler(this.BTN_optionX_Click);
+            this.BTN_option2.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // PNL_header
             // 
@@ -303,8 +307,8 @@
             this.PIC_minimize.TabIndex = 1;
             this.PIC_minimize.TabStop = false;
             this.PIC_minimize.Click += new System.EventHandler(this.PIC_minimize_Click);
-            this.PIC_minimize.MouseEnter += new System.EventHandler(this.PIC_minimize_MouseEnter);
-            this.PIC_minimize.MouseLeave += new System.EventHandler(this.PIC_minimize_MouseLeave);
+            this.PIC_minimize.MouseEnter += new System.EventHandler(this.PIC_MouseEnter);
+            this.PIC_minimize.MouseLeave += new System.EventHandler(this.PIC_MouseLeave);
             // 
             // PIC_close
             // 
@@ -318,8 +322,8 @@
             this.PIC_close.TabIndex = 3;
             this.PIC_close.TabStop = false;
             this.PIC_close.Click += new System.EventHandler(this.PIC_close_Click);
-            this.PIC_close.MouseEnter += new System.EventHandler(this.PIC_close_MouseEnter);
-            this.PIC_close.MouseLeave += new System.EventHandler(this.PIC_close_MouseLeave);
+            this.PIC_close.MouseEnter += new System.EventHandler(this.PIC_MouseEnter);
+            this.PIC_close.MouseLeave += new System.EventHandler(this.PIC_MouseLeave);
             // 
             // PIC_toggleform
             // 
@@ -333,8 +337,8 @@
             this.PIC_toggleform.TabIndex = 2;
             this.PIC_toggleform.TabStop = false;
             this.PIC_toggleform.Click += new System.EventHandler(this.PIC_toggleform_Click);
-            this.PIC_toggleform.MouseEnter += new System.EventHandler(this.PIC_toggleform_MouseEnter);
-            this.PIC_toggleform.MouseLeave += new System.EventHandler(this.PIC_toggleform_MouseLeave);
+            this.PIC_toggleform.MouseEnter += new System.EventHandler(this.PIC_MouseEnter);
+            this.PIC_toggleform.MouseLeave += new System.EventHandler(this.PIC_MouseLeave);
             // 
             // PIC_home
             // 
