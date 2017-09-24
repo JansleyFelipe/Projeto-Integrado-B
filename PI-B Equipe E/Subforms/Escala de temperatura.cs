@@ -81,7 +81,10 @@ namespace PI_B_Equipe_E
                     F = x;
                 }
 
-                LBLresposta.Text = "Celsius:" + "\n" + C.ToString("#.##") + "\n" + "\n" + "Kelvin:" + "\n" + K.ToString("#.##") + "\n" + "\n" + "Farenheit:" + "\n" + F.ToString("#.##");
+                LBLresposta.Text = 
+                    "Celsius:" + "\n" + C.ToString("0.##") + "\n" + "\n" + 
+                    "Kelvin:" + "\n" + K.ToString("0.##") + "\n" + "\n" + 
+                    "Farenheit:" + "\n" + F.ToString("0.##");
             }
             catch
             {

@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Alssys2.ico</ApplicationIcon>
+    <ApplicationIcon>Alssys1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,10 +48,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sobre.cs">
+    <Compile Include="Subforms\Sobre.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Sobre.Designer.cs">
+    <Compile Include="Subforms\Sobre.Designer.cs">
       <DependentUpon>Sobre.cs</DependentUpon>
     </Compile>
     <Compile Include="Subforms\CalculadoraDeDatas.cs">
@@ -96,7 +96,10 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sobre.resx">
+    <EmbeddedResource Include="Subforms\CalculadoraDeDatas.resx">
+      <DependentUpon>CalculadoraDeDatas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subforms\Sobre.resx">
       <DependentUpon>Sobre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Subforms\Escala de temperatura.resx">
@@ -159,6 +162,7 @@
     <None Include="Resources\escala.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Alssys1.ico" />
     <Content Include="Alssys2.ico" />
     <None Include="Resources\DescriçãoAllsys.txt" />
     <None Include="Resources\Alssys11.png" />

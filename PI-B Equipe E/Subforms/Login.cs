@@ -19,14 +19,20 @@ namespace PI_B_Equipe_E
             LBL_errodeacesso.Text = null;
         }
 
+        private void Login_Load(object sender, EventArgs e)
+        {
+            TXB_login.Focus();
+        }
+
         private void BTN_login_Click(object sender, EventArgs e)
         {
             if (TXB_login.Text == "teste" && TXB_senha.Text == "PB2017")
             {
-                Usuário.Loged = true;
+                Usuário.Logado = true;
                 Usuário.Login = TXB_login.Text;
                 Usuário.Nome = TXB_login.Text;
                 Usuário.Email = TXB_login.Text;
+                Usuário.Permissao = "administrador";
 
                 Logado status = new Logado(Usuário.Nome){Parent = Parent};
 
@@ -36,6 +42,11 @@ namespace PI_B_Equipe_E
                 }
 
                 status.Show();
+
+                if(Usuário.Permissao == "administrador")
+                {
+
+                }
             }
             else
             {
@@ -56,6 +67,14 @@ namespace PI_B_Equipe_E
                     TXB_senha.Clear();
                     LBL_errodeacesso.Text = "Login e/ou senha errados!";
                 }
+            }
+        }
+
+        private void TXB_senha_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == 13)
+            {
+                BTN_login.PerformClick();
             }
         }
     }
