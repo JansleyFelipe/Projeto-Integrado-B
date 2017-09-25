@@ -148,11 +148,11 @@
             this.button2.Tag = "Escala de temperaturas";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Visible = false;
-            this.button2.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option3
             // 
-            this.BTN_option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.BTN_option3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(189)))), ((int)(((byte)(63)))));
+            this.BTN_option3.BackgroundImage = global::PI_B_Equipe_E.Properties.Resources.cale;
             this.BTN_option3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BTN_option3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BTN_option3.Enabled = false;
@@ -169,11 +169,10 @@
             this.BTN_option3.UseVisualStyleBackColor = false;
             this.BTN_option3.Visible = false;
             this.BTN_option3.Click += new System.EventHandler(this.BTN_optionX_Click);
-            this.BTN_option3.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option0
             // 
-            this.BTN_option0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(189)))), ((int)(((byte)(63)))));
+            this.BTN_option0.BackColor = System.Drawing.Color.DimGray;
             this.BTN_option0.BackgroundImage = global::PI_B_Equipe_E.Properties.Resources.about;
             this.BTN_option0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.BTN_option0.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -189,7 +188,6 @@
             this.BTN_option0.Tag = "Sobre";
             this.BTN_option0.UseVisualStyleBackColor = false;
             this.BTN_option0.Click += new System.EventHandler(this.BTN_optionX_Click);
-            this.BTN_option0.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option1
             // 
@@ -211,7 +209,6 @@
             this.BTN_option1.Tag = "Registro de novo usuário";
             this.BTN_option1.UseVisualStyleBackColor = false;
             this.BTN_option1.Click += new System.EventHandler(this.BTN_optionX_Click);
-            this.BTN_option1.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // BTN_option2
             // 
@@ -231,7 +228,6 @@
             this.BTN_option2.Tag = "Escala de temperaturas";
             this.BTN_option2.UseVisualStyleBackColor = false;
             this.BTN_option2.Click += new System.EventHandler(this.BTN_optionX_Click);
-            this.BTN_option2.Enter += new System.EventHandler(this.BTN_FocusEnter);
             // 
             // PNL_header
             // 

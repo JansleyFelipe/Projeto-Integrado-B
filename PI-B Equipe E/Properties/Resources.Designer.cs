@@ -93,6 +93,16 @@ namespace PI_B_Equipe_E.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cale {
+            get {
+                object obj = ResourceManager.GetObject("cale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap closee {
             get {
                 object obj = ResourceManager.GetObject("closee", resourceCulture);

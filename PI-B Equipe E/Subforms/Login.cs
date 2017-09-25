@@ -12,7 +12,6 @@ namespace PI_B_Equipe_E
 {
     public partial class Login : UserControl
     {
-        
         public Login()
         {
             InitializeComponent();
@@ -34,7 +33,7 @@ namespace PI_B_Equipe_E
                 Usuário.Email = TXB_login.Text;
                 Usuário.Permissao = "administrador";
 
-                Logado status = new Logado(Usuário.Nome){Parent = Parent};
+                Logado status = new Logado(Usuário.Nome) { Parent = Parent };
 
                 foreach (Control obj in Parent.Controls)
                 {
@@ -43,7 +42,7 @@ namespace PI_B_Equipe_E
 
                 status.Show();
 
-                if(Usuário.Permissao == "administrador")
+                if (Usuário.Permissao == "administrador")
                 {
 
                 }
@@ -72,7 +71,7 @@ namespace PI_B_Equipe_E
 
         private void TXB_senha_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(e.KeyChar == 13)
+            if (e.KeyChar == 13)
             {
                 BTN_login.PerformClick();
             }

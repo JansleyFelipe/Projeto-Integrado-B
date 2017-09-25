@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Security.Cryptography;
 using System.Windows.Forms;
 
 namespace PI_B_Equipe_E
@@ -16,30 +17,24 @@ namespace PI_B_Equipe_E
         private Point dragCursorPoint;
         private Point dragFormPoint;
 
-        Registro registro = new Registro();
-        Escala_de_temperatura escala_de_temperatura = new Escala_de_temperatura();
-        Sobre sobre = new Sobre();
-        CalculadoraDeDatas calculadoraDeDatas = new CalculadoraDeDatas();
+        Registro registro = new Registro() { Dock = DockStyle.Fill };
+        Escala_de_temperatura escala_de_temperatura = new Escala_de_temperatura() { Dock = DockStyle.Fill };
+        Sobre sobre = new Sobre() { Dock = DockStyle.Fill };
+        CalculadoraDeDatas calculadoraDeDatas = new CalculadoraDeDatas() { Dock = DockStyle.Fill };
 
         List<Button> Botões = new List<Button>();
-        List<Type> Forms = new List<Type>
-        {
-            typeof(Sobre), typeof(Registro), typeof(Escala_de_temperatura), typeof(Escala_de_temperatura)
-        };
-
-        Dictionary<Button, Type> Botoes = new Dictionary<Button, Type>();
-
+       
         public Form1()
         {
             InitializeComponent();
             Login login = new Login() { Parent = PNL_statuslogin };
             login.Show();
+            sobre.Parent = PNL_principal;
+            sobre.Show();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            BTN_option0.PerformClick();
-
             foreach (Control button in TBL_tabitems.Controls)
             {
                 try
@@ -89,6 +84,7 @@ namespace PI_B_Equipe_E
                     break;
                 case "Calculadora De Datas":
                     calculadoraDeDatas.Parent = PNL_principal;
+                    calculadoraDeDatas.Dock = DockStyle.Fill;
                     calculadoraDeDatas.Show();
                     break;
             }
@@ -201,12 +197,6 @@ namespace PI_B_Equipe_E
                 BTN_option3.Visible = false;
                 BTN_option0.PerformClick();
             }
-        }
-
-        private void BTN_FocusEnter(object sender, EventArgs e)
-        {
-            Button BTN = sender as Button;
-            BTN.PerformClick();
         }
     }
 }

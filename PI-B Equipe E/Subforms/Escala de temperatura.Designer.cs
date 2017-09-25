@@ -44,7 +44,7 @@
             this.LBLresposta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.LBLresposta.Location = new System.Drawing.Point(352, 16);
             this.LBLresposta.Name = "LBLresposta";
-            this.LBLresposta.Size = new System.Drawing.Size(274, 266);
+            this.LBLresposta.Size = new System.Drawing.Size(403, 384);
             this.LBLresposta.TabIndex = 10;
             // 
             // label6
@@ -103,9 +103,8 @@
             this.Controls.Add(this.CBOescalas);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.MinimumSize = new System.Drawing.Size(1123, 419);
             this.Name = "Escala_de_temperatura";
-            this.Size = new System.Drawing.Size(1123, 419);
+            this.Size = new System.Drawing.Size(773, 419);
             this.ResumeLayout(false);
             this.PerformLayout();
 

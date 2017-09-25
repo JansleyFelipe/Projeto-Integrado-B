@@ -164,6 +164,7 @@
   <ItemGroup>
     <Content Include="Alssys1.ico" />
     <Content Include="Alssys2.ico" />
+    <None Include="Resources\cale.png" />
     <None Include="Resources\DescriçãoAllsys.txt" />
     <None Include="Resources\Alssys11.png" />
   </ItemGroup>

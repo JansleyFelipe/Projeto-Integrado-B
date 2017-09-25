@@ -46,10 +46,10 @@
             // 
             // LBL_sobre
             // 
-            this.LBL_sobre.Dock = System.Windows.Forms.DockStyle.Right;
+            this.LBL_sobre.Dock = System.Windows.Forms.DockStyle.Left;
             this.LBL_sobre.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_sobre.ForeColor = System.Drawing.Color.White;
-            this.LBL_sobre.Location = new System.Drawing.Point(413, 0);
+            this.LBL_sobre.Location = new System.Drawing.Point(352, 0);
             this.LBL_sobre.Name = "LBL_sobre";
             this.LBL_sobre.Size = new System.Drawing.Size(380, 419);
             this.LBL_sobre.TabIndex = 1;
@@ -65,8 +65,6 @@
             this.Controls.Add(this.PIC_about);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(5);
-            this.MaximumSize = new System.Drawing.Size(793, 419);
-            this.MinimumSize = new System.Drawing.Size(793, 419);
             this.Name = "Sobre";
             this.Size = new System.Drawing.Size(793, 419);
             this.Load += new System.EventHandler(this.Sobre_Load);
